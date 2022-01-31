@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Open+Sans:wght@300&display=swap');
+
+body{background-image: linear-gradient(to right,rgb(119, 0, 255),rgb(120, 0, 189));display: flex; justify-content: center;align-items: center;height: 100vh;}
+
+
+/* =====  formulario ======= */
+
+header{color: rgb(63, 30, 210);text-align: center;font-weight: 900;font-size: 17pt;}
+
+article{font-weight: 900;}
+
+#bloco {
+    
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 15px;
+    
+}
+
+#botao{padding: 4px; margin-left: 200px;margin-top: 5px;cursor: pointer;
+-webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out; }
+
+#botao:hover{box-shadow: 0 0 40px 40px #f72811 inset;}
+
+.lista{width: 90%;padding: 5px;margin: 5px;}
+
+.lista:focus{color: blue;; border-radius: 4px;}
+
+article{padding-top: 10px;}
+
+button{margin-top: 50px;margin-left: 200px;}
+
+
+/* ======== */
