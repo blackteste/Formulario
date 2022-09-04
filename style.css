@@ -17,13 +17,22 @@ article{font-weight: 900;}
     border-radius: 10px;
     padding: 15px;
     
+    
+    
 }
 
-#botao{padding: 4px; margin-left: 200px;margin-top: 5px;cursor: pointer;
--webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out; }
+form {
+    text-align: center;
+}
 
-#botao:hover{box-shadow: 0 0 40px 40px #f72811 inset;}
+
+#botao{
+    margin-top: 7px;
+    text-align: center;
+    padding: 5px;
+}
+
+#botao:hover{padding: 5px;cursor: pointer;background-color: black;color: aliceblue;}
 
 .lista{width: 90%;padding: 5px;margin: 5px;}
 
