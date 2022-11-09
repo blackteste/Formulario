@@ -1,4 +1,5 @@
 <?php
+    // Dados formulario //
     $nome = $_GET['nome'];
     $sobrenome = $_GET['sobrenome'];
     $sexo = $_GET['sexo'];
@@ -7,21 +8,24 @@
     $telefone = $_GET['telefone'];
     
 
+    // Dados de conexao banco //
 
-    // Conexão Mysql //
+    $hostname = 'database-formularios-1.cr1tafqlnmv3.us-east-1.rds.amazonaws.com';
+    $banco = 'Formulario';
+    $usuario = 'admin';
+    $senha = 'qweasdzxc25';
 
-    $hostname = 'localhost';
-    $banco = 'formulario';
-    $usuario = 'root';
-    $senha = '';
+    //======================//
 
+    $conexao  = new mysqli("$hostname","$usuario","$senha","$banco");
 
-
-    $conexao = mysqli_connect('localhost','root','') or die ('Falha ao fazer a conexão no banco de dados');
-
+    
     mysqli_select_db($conexao,$banco) or die ('Falha ao selecionar o banco de dados');
 
-    $sql = "INSERT INTO pessoas (nome,sobrenome,sexo,idade,email,telefone) values ('$nome','$sobrenome','$sexo','$idade','$email','$telefone') "; 
+
+
+
+    $sql = "INSERT INTO PESSOAS (nome,sobrenome,sexo,idade,email,telefone) values ('$nome','$sobrenome','$sexo','$idade','$email','$telefone') "; 
 
     
 
@@ -29,7 +33,7 @@
         echo "<br>"."Cadastro feito com sucesso";
 
     }else{
-        echo "<br>"."Erro ao salvar os dados";
+        echo "<br>"."Erro ao salvar ao cadastrar os dados";
     }
 
 

@@ -9,6 +9,8 @@ header{color: rgb(63, 30, 210);text-align: center;font-weight: 900;font-size: 17
 
 article{font-weight: 900;}
 
+
+
 #bloco {
     
     background-color: white;
@@ -36,7 +38,7 @@ form {
 
 .lista{width: 90%;padding: 5px;margin: 5px;}
 
-.lista:focus{color: blue;; border-radius: 4px;}
+.lista:focus{color: gray;; border-radius: 4px;}
 
 article{padding-top: 10px;}
 
