@@ -1,9 +1,8 @@
-<h1>Formulario</h1>
 
-> Formulario simples feito com as tecnologias listadas abaixo e salvo na nuvem da AWS com banco de dados <br>
-[**SITE**](http://34.239.111.3/Formulario/) 
+> Site para formulario feito para salvar os dados digitados pelo usuario em um banco de dados. <br>
 
-## Tecnologia usadas :
+
+## Linguagens usadas :
 <table>
 
 <tr>
